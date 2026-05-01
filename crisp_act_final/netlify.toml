@@ -1,0 +1,17 @@
+[build]
+  publish = "."
+
+# Redirects: make /admin load the CMS
+[[redirects]]
+  from = "/admin"
+  to = "/admin/index.html"
+  status = 200
+
+# Enable Netlify Identity on all pages
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

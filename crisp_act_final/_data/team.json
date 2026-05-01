@@ -1,0 +1,16 @@
+{
+  "members": [
+    {
+      "name": "Mr. Bernard Omwega Osero",
+      "role": "Team Lead",
+      "bio": "A seasoned communications strategist with over three decades of experience in journalism, public relations, and corporate communications. He served as Head of Corporate Communications at Kenya Ports Authority for 26 years.",
+      "photo": "/images/uploads/omwega.png"
+    },
+    {
+      "name": "Mr. Ayub M. Mwangi",
+      "role": "Operations and Strategy",
+      "bio": "An award-winning communication and public relations professional with over two decades of experience across media, strategic communication, and multimedia production.",
+      "photo": "/images/uploads/ayub.png"
+    }
+  ]
+}

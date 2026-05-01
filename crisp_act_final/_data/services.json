@@ -1,0 +1,29 @@
+{
+  "services": [
+    {
+      "title": "Strategic Communication Consulting",
+      "description": "We design tailored communication strategies that align with your goals and vision.",
+      "items": ["Communication audits & strategy development", "Corporate reputation management", "Stakeholder engagement planning", "Internal communication strategy"]
+    },
+    {
+      "title": "Public Relations & Media Management",
+      "description": "We help you build powerful media relations and craft compelling stories that make headlines for the right reasons.",
+      "items": ["Media relations and press engagement", "Crisis communication and reputation repair", "Press releases, op-eds, and media kits", "Media training for executives"]
+    },
+    {
+      "title": "Brand Communication & Campaigns",
+      "description": "We turn brand stories into experiences that move people to action.",
+      "items": ["Brand storytelling & positioning", "CSR & advocacy campaigns", "Product and corporate launches", "Event management and experiential marketing"]
+    },
+    {
+      "title": "Digital & Social Media Management",
+      "description": "We manage digital strategies that amplify visibility, build community, and convert audiences into advocates.",
+      "items": ["Social media strategy & content creation", "Online reputation management", "Influencer marketing", "Analytics and digital reporting"]
+    },
+    {
+      "title": "Training & Capacity Building",
+      "description": "We equip teams and leaders with the skills to communicate confidently and effectively.",
+      "items": ["PR & media communication skills", "Speechwriting and presentation mastery", "Crisis communication workshops", "Executive media coaching"]
+    }
+  ]
+}
