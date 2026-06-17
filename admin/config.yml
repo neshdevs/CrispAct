@@ -1,0 +1,102 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+
+  # ─────────────────────────────────────────
+  # HOMEPAGE
+  # ─────────────────────────────────────────
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - name: "hero"
+        label: "Hero Section"
+        file: "_data/homepage_hero.json"
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Subheadline", name: "subheadline", widget: "text" }
+          - { label: "Button 1 Text", name: "btn1_text", widget: "string" }
+          - { label: "Button 2 Text", name: "btn2_text", widget: "string" }
+          - { label: "Hero Image", name: "hero_image", widget: "image" }
+
+      - name: "services_preview"
+        label: "Services Preview (Homepage)"
+        file: "_data/homepage_services.json"
+        fields:
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+  # ─────────────────────────────────────────
+  # ABOUT US
+  # ─────────────────────────────────────────
+  - name: "about"
+    label: "About Us"
+    files:
+      - name: "about_main"
+        label: "Who We Are"
+        file: "_data/about.json"
+        fields:
+          - { label: "Who We Are", name: "who_we_are", widget: "text" }
+          - { label: "Our Vision", name: "vision", widget: "text" }
+          - { label: "Our Mission", name: "mission", widget: "text" }
+          - { label: "Our Promise", name: "promise", widget: "text" }
+
+      - name: "team"
+        label: "Meet Our Team"
+        file: "_data/team.json"
+        fields:
+          - label: "Team Members"
+            name: "members"
+            widget: "list"
+            fields:
+              - { label: "Full Name", name: "name", widget: "string" }
+              - { label: "Title / Role", name: "role", widget: "string" }
+              - { label: "Bio", name: "bio", widget: "text" }
+              - { label: "Photo", name: "photo", widget: "image" }
+
+  # ─────────────────────────────────────────
+  # SERVICES
+  # ─────────────────────────────────────────
+  - name: "services"
+    label: "Our Services"
+    file: "_data/services.json"
+    fields:
+      - label: "Services"
+        name: "services"
+        widget: "list"
+        fields:
+          - { label: "Service Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - label: "Sub-services"
+            name: "items"
+            widget: "list"
+            field:
+              { label: "Item", name: "item", widget: "string" }
+
+  # ─────────────────────────────────────────
+  # CONTACT US
+  # ─────────────────────────────────────────
+  - name: "contact"
+    label: "Contact Us"
+    files:
+      - name: "contact_info"
+        label: "Contact Information"
+        file: "_data/contact.json"
+        fields:
+          - { label: "Office Location", name: "office", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone 1", name: "phone1", widget: "string" }
+          - { label: "Phone 2", name: "phone2", widget: "string" }
+          - { label: "Website", name: "website", widget: "string" }
+          - { label: "Facebook", name: "facebook", widget: "string" }
+          - { label: "LinkedIn", name: "linkedin", widget: "string" }
+          - { label: "Twitter / X", name: "twitter", widget: "string" }
+          - { label: "Instagram", name: "instagram", widget: "string" }
