@@ -65,10 +65,13 @@ collections:
   # ─────────────────────────────────────────
   # SERVICES
   # ─────────────────────────────────────────
-  - name: "services"
+- name: "services"
     label: "Our Services"
-    file: "_data/services.json"
-    fields:
+    files:
+      - name: "services_list"
+        label: "Services"
+        file: "_data/services.json"
+        fields:
       - label: "Services"
         name: "services"
         widget: "list"
